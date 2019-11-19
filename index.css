@@ -1,0 +1,136 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            text-align: center;
+            background-color: lightblue;
+            background-image: url(imgs/code.jpg);
+        }
+        h1{
+            color: white;
+        }
+
+        img {
+            max-width: 50%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        p{
+            color: white;
+        }
+        .week{
+            color: white;
+        }
+        .karen{
+            height: 300px;
+            width:400px;
+    
+        }
+        .nav-header {
+            background: #f0f5f5;
+            display: flex;
+        }
+
+        .nav-div {
+            margin: auto;
+        }
+
+        .logo-img {
+            width: 120px;
+            margin-left: 20px;
+        }
+
+        .search-icon {
+            margin: 30px;
+        }
+
+        .nav-bar {
+            list-style-type: none;
+            display: flex;
+        }
+
+        .nav-bar-link {
+            color: #878787;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .main-header {
+            
+            background-size: cover; 
+            padding-top: 40px;
+
+        }
+
+        .main-header-title {
+            text-align: center;
+            font-size: 2.5em;
+            color: white;
+            text-transform: uppercase;
+            font-weight: normal;
+            padding-left: 75px;
+            text-shadow: 2px 2px 5px darkgrey;
+        }
+
+        .main-header-intro {
+            display: inline-block;
+            line-height: 1.5em;
+            width: 50%;
+            margin: auto;
+            padding: 40px;
+            color: white;
+            text-align: center;
+        }
+
+        .intro {
+            width: 60%;
+            margin: auto;
+        }
+        .about{
+            /*text-align: justify;*/
+        }
+
+        .button {
+            display: inline-block;
+            background-color: red;
+            padding: 20px;
+            margin: 5px;
+            color: white;
+            
+
+        }
+        .karenphoto{
+            height: 200px;
+            width: 150px;
+
+        }
+        .box {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: row-reverse;
+
+        }
+
+        .card {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            background-color: #B8B2B3;
+            margin: 20px;
+            box-shadow: 5px 10px #888888;
+            border-radius: 10px;
+
+        }
+
+        .footer {
+            height: 40px;
+            background-color: lightblue;
+            padding: 5px;
+        }
